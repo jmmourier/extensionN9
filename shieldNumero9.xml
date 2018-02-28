@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/PROJETS/numero9/carteExtension/shieldNumero9.sch</source>
+    <date>25/02/2018 19:16:37</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>shieldNumero9.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/IO shield/" tstamps="/5A7A351F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/controleur/" tstamps="/5A7A4128/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>controleur.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/power/" tstamps="/5A7A41EB/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/HMI/" tstamps="/5A7A4982/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HMI.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J_SERV201">
+      <value>CONN_01X03</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X03"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A37AB</tstamp>
+    </comp>
+    <comp ref="J_arduino_A_204">
+      <value>CONN_01X06</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X06"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A399F</tstamp>
+    </comp>
+    <comp ref="J_arduino_power_203">
+      <value>CONN_01X08</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X08"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A39A6</tstamp>
+    </comp>
+    <comp ref="J_arduino0-7_202">
+      <value>CONN_01X08</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X08"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A39AD</tstamp>
+    </comp>
+    <comp ref="J_arduino_8-13_201">
+      <value>CONN_01X10</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x10_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X10"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A39B4</tstamp>
+    </comp>
+    <comp ref="J_EXT202">
+      <value>CONN_01X08</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X08"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A3C02</tstamp>
+    </comp>
+    <comp ref="J_EXT201">
+      <value>CONN_01X04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X04"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A3C09</tstamp>
+    </comp>
+    <comp ref="J_TOF201">
+      <value>CONN_01X07</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x07_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X07"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A3E46</tstamp>
+    </comp>
+    <comp ref="J_TOF202">
+      <value>CONN_01X07</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x07_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_01X07"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A3E4D</tstamp>
+    </comp>
+    <comp ref="J_ESP201">
+      <value>CONN_02X04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="shieldNumero9-cache" part="CONN_02X04"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A7A48A1</tstamp>
+    </comp>
+    <comp ref="J_selESP_1">
+      <value>Conn_01x04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x04"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A90CFE2</tstamp>
+    </comp>
+    <comp ref="J_selESPGND_1">
+      <value>Conn_01x04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x04"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A90D048</tstamp>
+    </comp>
+    <comp ref="J_selESPVCC_1">
+      <value>Conn_01x04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x04"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A90D090</tstamp>
+    </comp>
+    <comp ref="R_pullup_reset_esp_1">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A90D642</tstamp>
+    </comp>
+    <comp ref="resetButton_1">
+      <value>Conn_01x02</value>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A90DA1D</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>7805</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="shieldNumero9-cache" part="7805"/>
+      <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
+      <tstamp>5A7A44A3</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
+      <tstamp>5A7A44AA</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
+      <tstamp>5A7A44B1</tstamp>
+    </comp>
+    <comp ref="U402">
+      <value>LF33CDT-TRY</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="shieldNumero9-cache" part="LF33CDT-TRY"/>
+      <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
+      <tstamp>5A7A44BD</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
+      <tstamp>5A7A44CC</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>C</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
+      <tstamp>5A7A44D3</tstamp>
+    </comp>
+    <comp ref="LED501">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4E42</tstamp>
+    </comp>
+    <comp ref="LED502">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4E49</tstamp>
+    </comp>
+    <comp ref="LED503">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4E50</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4E57</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4E5E</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4E65</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4E77</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4E7E</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>R</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4EA5</tstamp>
+    </comp>
+    <comp ref="SW501">
+      <value>SW_Push</value>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4EBB</tstamp>
+    </comp>
+    <comp ref="SW502">
+      <value>SW_Push</value>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4EC2</tstamp>
+    </comp>
+    <comp ref="SW503">
+      <value>SW_Push</value>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
+      <tstamp>5A7A4EC9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="shieldNumero9-cache" part="7805">
+      <aliases>
+        <alias>LM7805</alias>
+        <alias>LM7812</alias>
+        <alias>78L05</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7805</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="shieldNumero9-cache" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="shieldNumero9-cache" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="shieldNumero9-cache" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="shieldNumero9-cache" part="CONN_01X07">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="shieldNumero9-cache" part="CONN_01X08">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="shieldNumero9-cache" part="CONN_01X10">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="shieldNumero9-cache" part="CONN_02X04">
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="shieldNumero9-cache" part="LF15ABDT-TR">
+      <aliases>
+        <alias>LF18ABDT-TR</alias>
+        <alias>LF18CDT-TR</alias>
+        <alias>LF18CDT-TRY</alias>
+        <alias>LF25ABDT-TR</alias>
+        <alias>LF25ABDT-TRY</alias>
+        <alias>LF25CDT-TR</alias>
+        <alias>LF25CDT-TRY</alias>
+        <alias>LF33ABDT-TR</alias>
+        <alias>LF33CDT-TR</alias>
+        <alias>LF33CDT-TRY</alias>
+        <alias>LF50ABDT-TR</alias>
+        <alias>LF50ABDT-TRY</alias>
+        <alias>LF50CDT-TR</alias>
+        <alias>LF50CDT-TRY</alias>
+        <alias>LF60ABDT-TR</alias>
+        <alias>LF60CDT-TR</alias>
+        <alias>LF80ABDT-TR</alias>
+        <alias>LF80CDT-TR</alias>
+        <alias>LF80CDT-TRY</alias>
+        <alias>LF85CDT-TR</alias>
+        <alias>LF85CDT-TRY</alias>
+        <alias>LF120ABDT-TR</alias>
+        <alias>LF120CDT-TR</alias>
+      </aliases>
+      <footprints>
+        <fp>TO-252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LF15ABDT-TR</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:TO-252-2Lead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>D:\PROJETS\WORKSPACE\Kicad\kicad-library-4.0.7\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>D:\PROJETS\WORKSPACE\Kicad\kicad-library-4.0.7\library\conn.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>D:\PROJETS\WORKSPACE\Kicad\kicad-library-4.0.7\library\switches.lib</uri>
+    </library>
+    <library logical="shieldNumero9-cache">
+      <uri>D:\PROJETS\numero9\carteExtension\shieldNumero9-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="Shield-ALIM+">
+      <node ref="J_EXT202" pin="1"/>
+      <node ref="U401" pin="VI"/>
+      <node ref="C401" pin="1"/>
+      <node ref="J_arduino_power_203" pin="1"/>
+      <node ref="C403" pin="1"/>
+      <node ref="U402" pin="1"/>
+    </net>
+    <net code="3" name="GPIO_EXT2">
+      <node ref="J_EXT202" pin="4"/>
+    </net>
+    <net code="4" name="/IO shield/ESP-CHPD">
+      <node ref="J_ESP201" pin="6"/>
+      <node ref="J_selESP_1" pin="4"/>
+    </net>
+    <net code="5" name="ESP-TX">
+      <node ref="J_ESP201" pin="8"/>
+    </net>
+    <net code="6" name="CTRL_Servo">
+      <node ref="J_SERV201" pin="3"/>
+    </net>
+    <net code="7" name="ESP-RX">
+      <node ref="J_ESP201" pin="1"/>
+    </net>
+    <net code="8" name="GPIO_EXT1">
+      <node ref="J_EXT202" pin="3"/>
+    </net>
+    <net code="9" name="GPIO_EXT3">
+      <node ref="J_EXT202" pin="5"/>
+    </net>
+    <net code="10" name="GPIO_EXT4">
+      <node ref="J_EXT202" pin="6"/>
+    </net>
+    <net code="11" name="Arduino-SDA">
+      <node ref="J_arduino_8-13_201" pin="9"/>
+      <node ref="J_EXT202" pin="7"/>
+      <node ref="J_TOF202" pin="4"/>
+      <node ref="J_TOF201" pin="4"/>
+    </net>
+    <net code="12" name="Arduino-SCL">
+      <node ref="J_TOF202" pin="5"/>
+      <node ref="J_arduino_8-13_201" pin="10"/>
+      <node ref="J_TOF201" pin="5"/>
+      <node ref="J_EXT202" pin="8"/>
+    </net>
+    <net code="13" name="Net-(J_arduino0-7_202-Pad7)">
+      <node ref="J_arduino0-7_202" pin="7"/>
+    </net>
+    <net code="14" name="Net-(J_arduino_8-13_201-Pad2)">
+      <node ref="J_arduino_8-13_201" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J_arduino_8-13_201-Pad1)">
+      <node ref="J_arduino_8-13_201" pin="1"/>
+    </net>
+    <net code="16" name="Net-(J_arduino_8-13_201-Pad8)">
+      <node ref="J_arduino_8-13_201" pin="8"/>
+    </net>
+    <net code="17" name="Net-(J_arduino_A_204-Pad1)">
+      <node ref="J_arduino_A_204" pin="1"/>
+    </net>
+    <net code="18" name="Net-(J_arduino_A_204-Pad2)">
+      <node ref="J_arduino_A_204" pin="2"/>
+    </net>
+    <net code="19" name="Net-(J_arduino_A_204-Pad3)">
+      <node ref="J_arduino_A_204" pin="3"/>
+    </net>
+    <net code="20" name="Net-(J_arduino_A_204-Pad4)">
+      <node ref="J_arduino_A_204" pin="4"/>
+    </net>
+    <net code="21" name="Net-(J_arduino_A_204-Pad5)">
+      <node ref="J_arduino_A_204" pin="5"/>
+    </net>
+    <net code="22" name="Net-(J_arduino_A_204-Pad6)">
+      <node ref="J_arduino_A_204" pin="6"/>
+    </net>
+    <net code="23" name="Net-(J_arduino0-7_202-Pad1)">
+      <node ref="J_arduino0-7_202" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J_arduino0-7_202-Pad2)">
+      <node ref="J_arduino0-7_202" pin="2"/>
+    </net>
+    <net code="25" name="Net-(J_arduino0-7_202-Pad3)">
+      <node ref="J_arduino0-7_202" pin="3"/>
+    </net>
+    <net code="26" name="Net-(J_arduino0-7_202-Pad4)">
+      <node ref="J_arduino0-7_202" pin="4"/>
+    </net>
+    <net code="27" name="Net-(J_arduino0-7_202-Pad5)">
+      <node ref="J_arduino0-7_202" pin="5"/>
+    </net>
+    <net code="28" name="Net-(J_arduino0-7_202-Pad6)">
+      <node ref="J_arduino0-7_202" pin="6"/>
+    </net>
+    <net code="29" name="Net-(J_arduino_8-13_201-Pad3)">
+      <node ref="J_arduino_8-13_201" pin="3"/>
+    </net>
+    <net code="30" name="Net-(J_arduino0-7_202-Pad8)">
+      <node ref="J_arduino0-7_202" pin="8"/>
+    </net>
+    <net code="31" name="Net-(J_arduino_power_203-Pad4)">
+      <node ref="J_arduino_power_203" pin="4"/>
+    </net>
+    <net code="32" name="Net-(J_arduino_power_203-Pad5)">
+      <node ref="J_arduino_power_203" pin="5"/>
+    </net>
+    <net code="33" name="Net-(J_arduino_power_203-Pad6)">
+      <node ref="J_arduino_power_203" pin="6"/>
+    </net>
+    <net code="34" name="Net-(J_arduino_power_203-Pad7)">
+      <node ref="J_arduino_power_203" pin="7"/>
+    </net>
+    <net code="35" name="Net-(J_arduino_power_203-Pad8)">
+      <node ref="J_arduino_power_203" pin="8"/>
+    </net>
+    <net code="36" name="ESP-VCC">
+      <node ref="J_ESP201" pin="2"/>
+      <node ref="U402" pin="3"/>
+      <node ref="J_selESPVCC_1" pin="4"/>
+      <node ref="J_selESPVCC_1" pin="3"/>
+      <node ref="J_selESPVCC_1" pin="2"/>
+      <node ref="J_selESPVCC_1" pin="1"/>
+      <node ref="C404" pin="1"/>
+      <node ref="R_pullup_reset_esp_1" pin="1"/>
+    </net>
+    <net code="37" name="/IO shield/ESP-RESET">
+      <node ref="J_selESP_1" pin="3"/>
+      <node ref="J_ESP201" pin="4"/>
+      <node ref="resetButton_1" pin="1"/>
+      <node ref="R_pullup_reset_esp_1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(J_arduino_8-13_201-Pad6)">
+      <node ref="J_arduino_8-13_201" pin="6"/>
+    </net>
+    <net code="39" name="Net-(J_arduino_8-13_201-Pad5)">
+      <node ref="J_arduino_8-13_201" pin="5"/>
+    </net>
+    <net code="40" name="Net-(J_arduino_8-13_201-Pad4)">
+      <node ref="J_arduino_8-13_201" pin="4"/>
+    </net>
+    <net code="41" name="/IO shield/ESP-GPIO0">
+      <node ref="J_ESP201" pin="3"/>
+      <node ref="J_selESP_1" pin="1"/>
+    </net>
+    <net code="42" name="/IO shield/TOF2_GPIO">
+      <node ref="J_TOF202" pin="7"/>
+    </net>
+    <net code="43" name="/IO shield/TOF2_XSHUT">
+      <node ref="J_TOF202" pin="6"/>
+    </net>
+    <net code="44" name="/IO shield/TOF1_XSHUT">
+      <node ref="J_TOF201" pin="6"/>
+    </net>
+    <net code="45" name="/IO shield/ALIM_TOF">
+      <node ref="J_TOF201" pin="2"/>
+      <node ref="J_TOF202" pin="2"/>
+    </net>
+    <net code="46" name="/IO shield/TOF1_V_out">
+      <node ref="J_TOF201" pin="1"/>
+    </net>
+    <net code="47" name="/IO shield/TOF2_V_out">
+      <node ref="J_TOF202" pin="1"/>
+    </net>
+    <net code="48" name="/IO shield/TOF1_GPIO">
+      <node ref="J_TOF201" pin="7"/>
+    </net>
+    <net code="49" name="/IO shield/ESP-GPIO2">
+      <node ref="J_selESP_1" pin="2"/>
+      <node ref="J_ESP201" pin="5"/>
+    </net>
+    <net code="50" name="P_BUT1">
+      <node ref="SW501" pin="2"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="55" name="GND">
+      <node ref="C401" pin="2"/>
+      <node ref="U401" pin="GND"/>
+      <node ref="J_selESPGND_1" pin="1"/>
+      <node ref="J_selESPGND_1" pin="3"/>
+      <node ref="C402" pin="2"/>
+      <node ref="J_selESPGND_1" pin="4"/>
+      <node ref="LED501" pin="1"/>
+      <node ref="LED502" pin="1"/>
+      <node ref="LED503" pin="1"/>
+      <node ref="SW503" pin="1"/>
+      <node ref="C403" pin="2"/>
+      <node ref="SW501" pin="1"/>
+      <node ref="SW502" pin="1"/>
+      <node ref="U402" pin="2"/>
+      <node ref="C404" pin="2"/>
+      <node ref="J_EXT202" pin="2"/>
+      <node ref="J_EXT201" pin="4"/>
+      <node ref="J_EXT201" pin="3"/>
+      <node ref="J_EXT201" pin="2"/>
+      <node ref="J_EXT201" pin="1"/>
+      <node ref="J_TOF201" pin="3"/>
+      <node ref="J_arduino_power_203" pin="3"/>
+      <node ref="J_selESPGND_1" pin="2"/>
+      <node ref="J_SERV201" pin="1"/>
+      <node ref="J_arduino_power_203" pin="2"/>
+      <node ref="J_ESP201" pin="7"/>
+      <node ref="resetButton_1" pin="2"/>
+      <node ref="J_arduino_8-13_201" pin="7"/>
+      <node ref="J_TOF202" pin="3"/>
+    </net>
+    <net code="56" name="P_RESET">
+      <node ref="SW503" pin="2"/>
+      <node ref="R503" pin="2"/>
+    </net>
+    <net code="57" name="P_BUT2">
+      <node ref="SW502" pin="2"/>
+      <node ref="R502" pin="2"/>
+    </net>
+    <net code="58" name="ALIM_UC">
+      <node ref="R501" pin="1"/>
+      <node ref="R502" pin="1"/>
+      <node ref="R503" pin="1"/>
+    </net>
+    <net code="59" name="P_LED3">
+      <node ref="R506" pin="1"/>
+    </net>
+    <net code="60" name="P_LED2">
+      <node ref="R505" pin="1"/>
+    </net>
+    <net code="61" name="P_LED1">
+      <node ref="R504" pin="1"/>
+    </net>
+    <net code="62" name="5V_SERVO">
+      <node ref="C402" pin="1"/>
+      <node ref="J_SERV201" pin="2"/>
+      <node ref="U401" pin="VO"/>
+    </net>
+    <net code="64" name="Net-(LED503-Pad2)">
+      <node ref="LED503" pin="2"/>
+      <node ref="R506" pin="2"/>
+    </net>
+    <net code="65" name="Net-(LED502-Pad2)">
+      <node ref="LED502" pin="2"/>
+      <node ref="R505" pin="2"/>
+    </net>
+    <net code="66" name="Net-(LED501-Pad2)">
+      <node ref="LED501" pin="2"/>
+      <node ref="R504" pin="2"/>
+    </net>
+  </nets>
+</export>
