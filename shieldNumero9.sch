@@ -109,18 +109,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 4150 2600 0    60   ~ 0
-TODO : find out the wiring for Shield\n
-Text Notes 4150 2500 0    60   ~ 0
-TODO : find out the wiring for ESP8266\n
-Text Notes 4150 2800 0    60   ~ 0
-TODO : set alims
-Text Notes 4150 2700 0    60   ~ 0
-TODO : find out the controler
-Text Notes 4150 3000 0    60   ~ 0
-TODO : have jumper or switches for the controler
-Text Notes 4150 3100 0    60   ~ 0
-TODO : do smthg with the XSHUT
 $Sheet
 S 1050 900  1250 500 
 U 5A7A351F
