@@ -1,0 +1,28 @@
+Drill report for D:\PROJETS\numero9\carteExtension\shieldNumero9.kicad_pcb
+Created on 14/03/2018 00:25:47
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'shieldNumero9.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (2 holes)
+    T2  0,80mm  0,031"  (42 holes)
+    T3  0,90mm  0,035"  (6 holes)
+    T4  1,00mm  0,039"  (115 holes)
+    T5  1,10mm  0,043"  (12 holes)
+    T6  1,14mm  0,045"  (6 holes)
+    T7  3,05mm  0,120"  (4 holes)
+
+    Total plated holes count 187
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
