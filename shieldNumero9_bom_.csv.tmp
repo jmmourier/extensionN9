@@ -1,32 +1,36 @@
 Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
-1,Unpolarized capacitor,C,C401 C402 C403 C404,C,,4,
+1,Unpolarized capacitor,C,C401 C402 C403 C404,C,C_Disc_D3.8mm_W2.6mm_P2.50mm,4,
 2,,CONN_01X03,J_SERV201,CONN_01X03,Socket_Strip_Straight_1x03_Pitch2.54mm,1,
 3,,CONN_01X04,J_EXT201,CONN_01X04,Socket_Strip_Straight_1x04_Pitch2.54mm,1,
 4,,CONN_01X06,J_arduino_A_204,CONN_01X06,Socket_Strip_Straight_1x06_Pitch2.54mm,1,
 5,,CONN_01X07,J_TOF201 J_TOF202,CONN_01X07,Socket_Strip_Straight_1x07_Pitch2.54mm,2,
-6,,CONN_01X08,J_EXT202 J_arduino_power_203,CONN_01X08,Socket_Strip_Straight_1x08_Pitch2.54mm,2,
-7,,CONN_01X08,J_arduino0-7_202,CONN_01X08,Pin_Header_Straight_1x08_Pitch2.54mm,1,
-8,,CONN_01X10,J_arduino_8-13_201,CONN_01X10,Socket_Strip_Straight_1x10_Pitch2.54mm,1,
-9,,CONN_02X04,J_ESP201,CONN_02X04,Socket_Strip_Straight_2x04_Pitch2.54mm,1,
-10,"Generic connector, single row, 01x04",Conn_01x04,J_selESPGND_1 J_selESPVCC_1 J_selESP_1,Conn_01x04,Socket_Strip_Straight_1x04_Pitch2.54mm,3,
-11,LED generic,LED,LED501 LED502 LED503,LED,,3,
-12,Resistor,R,R501 R502 R503 R504 R505 R506 R_pullup_reset_esp_1,R,,7,
-13,"Push button switch, generic, two pins",SW_Push,SW501 SW502 SW503,SW_Push,,3,
-14,,7805,U401,7805,TO-220,1,
-15,,LF33CDT-TRY,U402,LF33CDT-TRY,TO-220,1,
-16,"Generic connector, single row, 01x02",Conn_01x02,resetButton_1,Conn_01x02,,1,
+6,,CONN_01X08,J_EXT202 J_arduino0-7_202 J_arduino_power_203,CONN_01X08,Socket_Strip_Straight_1x08_Pitch2.54mm,3,
+7,,CONN_01X10,J_arduino_8-13_201,CONN_01X10,Socket_Strip_Straight_1x10_Pitch2.54mm,1,
+8,,CONN_02X04,J_ESP201,CONN_02X04,Socket_Strip_Straight_2x04_Pitch2.54mm,1,
+9,"Generic connector, single row, 01x02",Conn_01x02,J204,Conn_01x02,Pin_Header_Straight_1x02_Pitch2.54mm,1,
+10,"Generic connector, single row, 01x04",Conn_01x04,J205 J_selESPGND_1 J_selESPVCC_1 J_selESP_1,Conn_01x04,Socket_Strip_Straight_1x04_Pitch2.54mm,4,
+11,"Generic connector, single row, 01x06",Conn_01x06,J201 J202,Conn_01x06,Socket_Strip_Straight_1x06_Pitch2.54mm,2,
+12,"Generic connector, single row, 01x06",Conn_01x06,J203,Conn_01x06,Pin_Header_Straight_1x06_Pitch2.54mm,1,
+13,"Jumper, generic, normally closed",Jumper,JP201 JP202 JP203 JP204,Jumper,Pin_Header_Straight_2x01_Pitch2.54mm,4,
+14,LED generic,LED,LED501 LED502 LED503,LED,LED_D5.0mm,3,
+15,Resistor,R,R501 R502 R503 R504 R505 R506 R_pullup_reset_esp_1,R,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,7,
+16,"Push button switch, generic, two pins",SW_Push,SW501 SW502 SW503,SW_Push,SW_PUSH_6mm,3,
+17,,7805,U401,7805,TO-220,1,
+18,,LF33CDT-TRY,U402,LF33CDT-TRY,TO-220,1,
+19,,Pic16f15345,U301,Pic16f15345,DIP-20_W7.62mm_LongPads,1,
+20,"Generic connector, single row, 01x02",Conn_01x02,resetButton_1,Conn_01x02,Pin_Header_Angled_1x02_Pitch2.54mm,1,
 
 
 
 
 
-Component Groups:,16
-Component Count:,33
-Fitted Components:,33
+Component Groups:,20
+Component Count:,43
+Fitted Components:,43
 Number of PCBs:,1
-Total components:,33
+Total components:,43
 Schematic Version:,
 Schematic Date:,
-BoM Date:,25/02/2018 19:16:24
+BoM Date:,15/03/2018 01:15:20
 Schematic Source:,D:/PROJETS/numero9/carteExtension/shieldNumero9.sch
 KiCad Version:,Eeschema 4.0.7

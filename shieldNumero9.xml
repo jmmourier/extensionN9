@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:/PROJETS/numero9/carteExtension/shieldNumero9.sch</source>
-    <date>25/02/2018 19:16:37</date>
+    <date>15/03/2018 01:15:27</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -94,7 +94,7 @@
     </comp>
     <comp ref="J_arduino0-7_202">
       <value>CONN_01X08</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm</footprint>
       <libsource lib="shieldNumero9-cache" part="CONN_01X08"/>
       <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
       <tstamp>5A7A39AD</tstamp>
@@ -164,15 +164,87 @@
     </comp>
     <comp ref="R_pullup_reset_esp_1">
       <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
       <tstamp>5A90D642</tstamp>
     </comp>
     <comp ref="resetButton_1">
       <value>Conn_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm</footprint>
       <libsource lib="conn" part="Conn_01x02"/>
       <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
       <tstamp>5A90DA1D</tstamp>
+    </comp>
+    <comp ref="JP201">
+      <value>Jumper</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A930253</tstamp>
+    </comp>
+    <comp ref="JP202">
+      <value>Jumper</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A93042E</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>Conn_01x06</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x06"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A930EB8</tstamp>
+    </comp>
+    <comp ref="J202">
+      <value>Conn_01x06</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x06"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A930EBF</tstamp>
+    </comp>
+    <comp ref="JP204">
+      <value>Jumper</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A95D6AB</tstamp>
+    </comp>
+    <comp ref="JP203">
+      <value>Jumper</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Jumper"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A95D87B</tstamp>
+    </comp>
+    <comp ref="J203">
+      <value>Conn_01x06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x06"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A9B399C</tstamp>
+    </comp>
+    <comp ref="J204">
+      <value>Conn_01x02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A9B41AC</tstamp>
+    </comp>
+    <comp ref="J205">
+      <value>Conn_01x04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x04"/>
+      <sheetpath names="/IO shield/" tstamps="/5A7A351F/"/>
+      <tstamp>5A9B6114</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>Pic16f15345</value>
+      <footprint>Housings_DIP:DIP-20_W7.62mm_LongPads</footprint>
+      <libsource lib="shieldNumero9-cache" part="Pic16f15345"/>
+      <sheetpath names="/controleur/" tstamps="/5A7A4128/"/>
+      <tstamp>5A9B27DC</tstamp>
     </comp>
     <comp ref="U401">
       <value>7805</value>
@@ -183,12 +255,14 @@
     </comp>
     <comp ref="C402">
       <value>C</value>
+      <footprint>Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
       <tstamp>5A7A44AA</tstamp>
     </comp>
     <comp ref="C401">
       <value>C</value>
+      <footprint>Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
       <tstamp>5A7A44B1</tstamp>
@@ -202,84 +276,98 @@
     </comp>
     <comp ref="C404">
       <value>C</value>
+      <footprint>Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
       <tstamp>5A7A44CC</tstamp>
     </comp>
     <comp ref="C403">
       <value>C</value>
+      <footprint>Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/5A7A41EB/"/>
       <tstamp>5A7A44D3</tstamp>
     </comp>
     <comp ref="LED501">
       <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4E42</tstamp>
     </comp>
     <comp ref="LED502">
       <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4E49</tstamp>
     </comp>
     <comp ref="LED503">
       <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4E50</tstamp>
     </comp>
     <comp ref="R504">
       <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4E57</tstamp>
     </comp>
     <comp ref="R505">
       <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4E5E</tstamp>
     </comp>
     <comp ref="R506">
       <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4E65</tstamp>
     </comp>
     <comp ref="R501">
       <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4E77</tstamp>
     </comp>
     <comp ref="R502">
       <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4E7E</tstamp>
     </comp>
     <comp ref="R503">
       <value>R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4EA5</tstamp>
     </comp>
     <comp ref="SW501">
       <value>SW_Push</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH_6mm</footprint>
       <libsource lib="switches" part="SW_Push"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4EBB</tstamp>
     </comp>
     <comp ref="SW502">
       <value>SW_Push</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH_6mm</footprint>
       <libsource lib="switches" part="SW_Push"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4EC2</tstamp>
     </comp>
     <comp ref="SW503">
       <value>SW_Push</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH_6mm</footprint>
       <libsource lib="switches" part="SW_Push"/>
       <sheetpath names="/HMI/" tstamps="/5A7A4982/"/>
       <tstamp>5A7A4EC9</tstamp>
@@ -297,9 +385,9 @@
         <field name="Value">7805</field>
       </fields>
       <pins>
-        <pin num="GND" name="GND" type="input"/>
-        <pin num="VI" name="VI" type="input"/>
-        <pin num="VO" name="VO" type="power_out"/>
+        <pin num="1" name="VI" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="VO" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="device" part="C">
@@ -503,6 +591,41 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="conn" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper">
+      <description>Jumper, generic, normally closed</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="LED">
       <description>LED generic</description>
       <footprints>
@@ -557,6 +680,34 @@
         <pin num="3" name="Vout" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="shieldNumero9-cache" part="Pic16f15345">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pic16f15345</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="~" type="input"/>
+        <pin num="15" name="~" type="input"/>
+        <pin num="16" name="~" type="input"/>
+        <pin num="17" name="~" type="input"/>
+        <pin num="18" name="~" type="input"/>
+        <pin num="19" name="~" type="input"/>
+        <pin num="20" name="~" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="R">
       <description>Resistor</description>
       <footprints>
@@ -585,11 +736,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>D:\PROJETS\WORKSPACE\Kicad\kicad-library-4.0.7\library\device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>D:\PROJETS\WORKSPACE\Kicad\kicad-library-4.0.7\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>D:\PROJETS\WORKSPACE\Kicad\kicad-library-4.0.7\library\device.lib</uri>
     </library>
     <library logical="switches">
       <uri>D:\PROJETS\WORKSPACE\Kicad\kicad-library-4.0.7\library\switches.lib</uri>
@@ -599,246 +750,320 @@
     </library>
   </libraries>
   <nets>
-    <net code="2" name="Shield-ALIM+">
-      <node ref="J_EXT202" pin="1"/>
-      <node ref="U401" pin="VI"/>
-      <node ref="C401" pin="1"/>
-      <node ref="J_arduino_power_203" pin="1"/>
-      <node ref="C403" pin="1"/>
-      <node ref="U402" pin="1"/>
-    </net>
-    <net code="3" name="GPIO_EXT2">
-      <node ref="J_EXT202" pin="4"/>
-    </net>
-    <net code="4" name="/IO shield/ESP-CHPD">
-      <node ref="J_ESP201" pin="6"/>
-      <node ref="J_selESP_1" pin="4"/>
-    </net>
-    <net code="5" name="ESP-TX">
-      <node ref="J_ESP201" pin="8"/>
-    </net>
-    <net code="6" name="CTRL_Servo">
-      <node ref="J_SERV201" pin="3"/>
-    </net>
-    <net code="7" name="ESP-RX">
-      <node ref="J_ESP201" pin="1"/>
-    </net>
-    <net code="8" name="GPIO_EXT1">
-      <node ref="J_EXT202" pin="3"/>
-    </net>
-    <net code="9" name="GPIO_EXT3">
-      <node ref="J_EXT202" pin="5"/>
-    </net>
-    <net code="10" name="GPIO_EXT4">
-      <node ref="J_EXT202" pin="6"/>
-    </net>
-    <net code="11" name="Arduino-SDA">
-      <node ref="J_arduino_8-13_201" pin="9"/>
-      <node ref="J_EXT202" pin="7"/>
-      <node ref="J_TOF202" pin="4"/>
-      <node ref="J_TOF201" pin="4"/>
-    </net>
-    <net code="12" name="Arduino-SCL">
-      <node ref="J_TOF202" pin="5"/>
-      <node ref="J_arduino_8-13_201" pin="10"/>
-      <node ref="J_TOF201" pin="5"/>
-      <node ref="J_EXT202" pin="8"/>
-    </net>
-    <net code="13" name="Net-(J_arduino0-7_202-Pad7)">
-      <node ref="J_arduino0-7_202" pin="7"/>
-    </net>
-    <net code="14" name="Net-(J_arduino_8-13_201-Pad2)">
-      <node ref="J_arduino_8-13_201" pin="2"/>
-    </net>
-    <net code="15" name="Net-(J_arduino_8-13_201-Pad1)">
-      <node ref="J_arduino_8-13_201" pin="1"/>
-    </net>
-    <net code="16" name="Net-(J_arduino_8-13_201-Pad8)">
-      <node ref="J_arduino_8-13_201" pin="8"/>
-    </net>
-    <net code="17" name="Net-(J_arduino_A_204-Pad1)">
-      <node ref="J_arduino_A_204" pin="1"/>
-    </net>
-    <net code="18" name="Net-(J_arduino_A_204-Pad2)">
-      <node ref="J_arduino_A_204" pin="2"/>
-    </net>
-    <net code="19" name="Net-(J_arduino_A_204-Pad3)">
-      <node ref="J_arduino_A_204" pin="3"/>
-    </net>
-    <net code="20" name="Net-(J_arduino_A_204-Pad4)">
-      <node ref="J_arduino_A_204" pin="4"/>
-    </net>
-    <net code="21" name="Net-(J_arduino_A_204-Pad5)">
-      <node ref="J_arduino_A_204" pin="5"/>
-    </net>
-    <net code="22" name="Net-(J_arduino_A_204-Pad6)">
-      <node ref="J_arduino_A_204" pin="6"/>
-    </net>
-    <net code="23" name="Net-(J_arduino0-7_202-Pad1)">
-      <node ref="J_arduino0-7_202" pin="1"/>
-    </net>
-    <net code="24" name="Net-(J_arduino0-7_202-Pad2)">
-      <node ref="J_arduino0-7_202" pin="2"/>
-    </net>
-    <net code="25" name="Net-(J_arduino0-7_202-Pad3)">
-      <node ref="J_arduino0-7_202" pin="3"/>
-    </net>
-    <net code="26" name="Net-(J_arduino0-7_202-Pad4)">
-      <node ref="J_arduino0-7_202" pin="4"/>
-    </net>
-    <net code="27" name="Net-(J_arduino0-7_202-Pad5)">
-      <node ref="J_arduino0-7_202" pin="5"/>
-    </net>
-    <net code="28" name="Net-(J_arduino0-7_202-Pad6)">
-      <node ref="J_arduino0-7_202" pin="6"/>
-    </net>
-    <net code="29" name="Net-(J_arduino_8-13_201-Pad3)">
-      <node ref="J_arduino_8-13_201" pin="3"/>
-    </net>
-    <net code="30" name="Net-(J_arduino0-7_202-Pad8)">
-      <node ref="J_arduino0-7_202" pin="8"/>
-    </net>
-    <net code="31" name="Net-(J_arduino_power_203-Pad4)">
-      <node ref="J_arduino_power_203" pin="4"/>
-    </net>
-    <net code="32" name="Net-(J_arduino_power_203-Pad5)">
-      <node ref="J_arduino_power_203" pin="5"/>
-    </net>
-    <net code="33" name="Net-(J_arduino_power_203-Pad6)">
-      <node ref="J_arduino_power_203" pin="6"/>
-    </net>
-    <net code="34" name="Net-(J_arduino_power_203-Pad7)">
-      <node ref="J_arduino_power_203" pin="7"/>
-    </net>
-    <net code="35" name="Net-(J_arduino_power_203-Pad8)">
+    <net code="1" name="Net-(J_arduino_power_203-Pad8)">
       <node ref="J_arduino_power_203" pin="8"/>
     </net>
-    <net code="36" name="ESP-VCC">
-      <node ref="J_ESP201" pin="2"/>
-      <node ref="U402" pin="3"/>
+    <net code="2" name="Net-(J_arduino_power_203-Pad7)">
+      <node ref="J_arduino_power_203" pin="7"/>
+    </net>
+    <net code="3" name="Net-(J_arduino_power_203-Pad6)">
+      <node ref="J_arduino_power_203" pin="6"/>
+    </net>
+    <net code="4" name="Net-(J_arduino_power_203-Pad5)">
+      <node ref="J_arduino_power_203" pin="5"/>
+    </net>
+    <net code="5" name="Net-(J_arduino_power_203-Pad4)">
+      <node ref="J_arduino_power_203" pin="4"/>
+    </net>
+    <net code="6" name="Net-(J_arduino0-7_202-Pad8)">
+      <node ref="J_arduino0-7_202" pin="8"/>
+    </net>
+    <net code="7" name="Net-(J_arduino0-7_202-Pad7)">
+      <node ref="J_arduino0-7_202" pin="7"/>
+    </net>
+    <net code="8" name="Net-(J_arduino0-7_202-Pad5)">
+      <node ref="J_arduino0-7_202" pin="5"/>
+    </net>
+    <net code="9" name="Net-(J_arduino0-7_202-Pad4)">
+      <node ref="J_arduino0-7_202" pin="4"/>
+    </net>
+    <net code="10" name="Net-(J_arduino0-7_202-Pad3)">
+      <node ref="J_arduino0-7_202" pin="3"/>
+    </net>
+    <net code="11" name="Net-(J_arduino_A_204-Pad6)">
+      <node ref="J_arduino_A_204" pin="6"/>
+    </net>
+    <net code="12" name="Net-(J_arduino_A_204-Pad5)">
+      <node ref="J_arduino_A_204" pin="5"/>
+    </net>
+    <net code="13" name="Net-(J_arduino_A_204-Pad4)">
+      <node ref="J_arduino_A_204" pin="4"/>
+    </net>
+    <net code="14" name="Net-(J_arduino_A_204-Pad3)">
+      <node ref="J_arduino_A_204" pin="3"/>
+    </net>
+    <net code="15" name="Net-(J_arduino_A_204-Pad2)">
+      <node ref="J_arduino_A_204" pin="2"/>
+    </net>
+    <net code="16" name="Net-(JP201-Pad1)">
+      <node ref="J_arduino0-7_202" pin="2"/>
+      <node ref="JP201" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J201-Pad6)">
+      <node ref="J201" pin="6"/>
+    </net>
+    <net code="18" name="Arduino-CTRLTOFXSHUT">
+      <node ref="J201" pin="5"/>
+      <node ref="J_arduino0-7_202" pin="6"/>
+    </net>
+    <net code="19" name="TX_arduino_5V">
+      <node ref="J201" pin="3"/>
+      <node ref="JP201" pin="2"/>
+    </net>
+    <net code="20" name="RX_ardunio_5V">
+      <node ref="J201" pin="4"/>
+      <node ref="JP202" pin="2"/>
+    </net>
+    <net code="21" name="Net-(JP202-Pad1)">
+      <node ref="JP202" pin="1"/>
+      <node ref="J_arduino0-7_202" pin="1"/>
+    </net>
+    <net code="22" name="Net-(J_arduino_A_204-Pad1)">
+      <node ref="J_arduino_A_204" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J_arduino_8-13_201-Pad8)">
+      <node ref="J_arduino_8-13_201" pin="8"/>
+    </net>
+    <net code="24" name="Net-(J_arduino_8-13_201-Pad1)">
+      <node ref="J_arduino_8-13_201" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J_arduino_8-13_201-Pad2)">
+      <node ref="J_arduino_8-13_201" pin="2"/>
+    </net>
+    <net code="26" name="Net-(J_arduino_8-13_201-Pad3)">
+      <node ref="J_arduino_8-13_201" pin="3"/>
+    </net>
+    <net code="27" name="Net-(J_arduino_8-13_201-Pad4)">
+      <node ref="J_arduino_8-13_201" pin="4"/>
+    </net>
+    <net code="28" name="Net-(J_arduino_8-13_201-Pad5)">
+      <node ref="J_arduino_8-13_201" pin="5"/>
+    </net>
+    <net code="29" name="Net-(J_arduino_8-13_201-Pad6)">
+      <node ref="J_arduino_8-13_201" pin="6"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="J_EXT201" pin="2"/>
+      <node ref="J_EXT201" pin="3"/>
+      <node ref="J_EXT201" pin="4"/>
+      <node ref="J_TOF201" pin="3"/>
+      <node ref="J_EXT202" pin="2"/>
+      <node ref="J_arduino_power_203" pin="3"/>
+      <node ref="J_arduino_power_203" pin="2"/>
+      <node ref="J_SERV201" pin="1"/>
+      <node ref="J_TOF202" pin="3"/>
+      <node ref="J_EXT201" pin="1"/>
+      <node ref="C403" pin="2"/>
+      <node ref="C404" pin="2"/>
+      <node ref="SW503" pin="1"/>
+      <node ref="SW502" pin="1"/>
+      <node ref="SW501" pin="1"/>
+      <node ref="LED503" pin="1"/>
+      <node ref="LED502" pin="1"/>
+      <node ref="LED501" pin="1"/>
+      <node ref="J_selESPGND_1" pin="4"/>
+      <node ref="J_selESPGND_1" pin="3"/>
+      <node ref="J_selESPGND_1" pin="2"/>
+      <node ref="J_selESPGND_1" pin="1"/>
+      <node ref="J_ESP201" pin="7"/>
+      <node ref="J_arduino_8-13_201" pin="7"/>
+      <node ref="U301" pin="20"/>
+      <node ref="U401" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="U402" pin="2"/>
+      <node ref="resetButton_1" pin="2"/>
+      <node ref="J205" pin="4"/>
+      <node ref="J205" pin="1"/>
+      <node ref="J201" pin="2"/>
+      <node ref="J204" pin="2"/>
+      <node ref="J202" pin="2"/>
+      <node ref="J203" pin="3"/>
+    </net>
+    <net code="31" name="Net-(J202-Pad1)">
+      <node ref="J202" pin="1"/>
+    </net>
+    <net code="32" name="/IO shield/ESP-RESET">
+      <node ref="resetButton_1" pin="1"/>
+      <node ref="J_ESP201" pin="4"/>
+      <node ref="J_selESP_1" pin="3"/>
+      <node ref="R_pullup_reset_esp_1" pin="2"/>
+    </net>
+    <net code="33" name="ICSPDAT">
+      <node ref="U301" pin="19"/>
+      <node ref="J203" pin="4"/>
+    </net>
+    <net code="34" name="GPIO_EXT5">
+      <node ref="J204" pin="1"/>
+      <node ref="U301" pin="17"/>
+    </net>
+    <net code="35" name="Net-(J203-Pad6)">
+      <node ref="J203" pin="6"/>
+    </net>
+    <net code="36" name="ICSPCLK">
+      <node ref="J203" pin="5"/>
+      <node ref="U301" pin="18"/>
+    </net>
+    <net code="37" name="3.3V_ext">
+      <node ref="R503" pin="1"/>
+      <node ref="U301" pin="1"/>
+      <node ref="C404" pin="1"/>
       <node ref="J_selESPVCC_1" pin="4"/>
       <node ref="J_selESPVCC_1" pin="3"/>
       <node ref="J_selESPVCC_1" pin="2"/>
       <node ref="J_selESPVCC_1" pin="1"/>
-      <node ref="C404" pin="1"/>
+      <node ref="U402" pin="3"/>
+      <node ref="R501" pin="1"/>
       <node ref="R_pullup_reset_esp_1" pin="1"/>
+      <node ref="J205" pin="3"/>
+      <node ref="J_ESP201" pin="2"/>
+      <node ref="R502" pin="1"/>
+      <node ref="J203" pin="2"/>
     </net>
-    <net code="37" name="/IO shield/ESP-RESET">
-      <node ref="J_selESP_1" pin="3"/>
-      <node ref="J_ESP201" pin="4"/>
-      <node ref="resetButton_1" pin="1"/>
-      <node ref="R_pullup_reset_esp_1" pin="2"/>
+    <net code="38" name="P_RESET">
+      <node ref="R503" pin="2"/>
+      <node ref="J203" pin="1"/>
+      <node ref="U301" pin="4"/>
+      <node ref="SW503" pin="2"/>
     </net>
-    <net code="38" name="Net-(J_arduino_8-13_201-Pad6)">
-      <node ref="J_arduino_8-13_201" pin="6"/>
+    <net code="39" name="5V_SERVO">
+      <node ref="J201" pin="1"/>
+      <node ref="JP203" pin="1"/>
+      <node ref="JP204" pin="1"/>
+      <node ref="J_SERV201" pin="2"/>
+      <node ref="C402" pin="1"/>
+      <node ref="U401" pin="3"/>
+      <node ref="J205" pin="2"/>
     </net>
-    <net code="39" name="Net-(J_arduino_8-13_201-Pad5)">
-      <node ref="J_arduino_8-13_201" pin="5"/>
+    <net code="40" name="TX_arduino_3.3V">
+      <node ref="J202" pin="3"/>
+      <node ref="U301" pin="3"/>
     </net>
-    <net code="40" name="Net-(J_arduino_8-13_201-Pad4)">
-      <node ref="J_arduino_8-13_201" pin="4"/>
+    <net code="41" name="RX_ardunio_3.3V">
+      <node ref="U301" pin="2"/>
+      <node ref="J202" pin="4"/>
     </net>
-    <net code="41" name="/IO shield/ESP-GPIO0">
-      <node ref="J_ESP201" pin="3"/>
-      <node ref="J_selESP_1" pin="1"/>
+    <net code="42" name="3.3-CTRLTOFXSHUT">
+      <node ref="J_TOF201" pin="6"/>
+      <node ref="J202" pin="5"/>
     </net>
-    <net code="42" name="/IO shield/TOF2_GPIO">
+    <net code="43" name="Net-(J202-Pad6)">
+      <node ref="J202" pin="6"/>
+    </net>
+    <net code="44" name="Net-(JP203-Pad2)">
+      <node ref="JP203" pin="2"/>
+      <node ref="J_TOF201" pin="2"/>
+    </net>
+    <net code="45" name="Net-(JP204-Pad2)">
+      <node ref="J_TOF202" pin="2"/>
+      <node ref="JP204" pin="2"/>
+    </net>
+    <net code="46" name="GPIO_EXT4">
+      <node ref="U301" pin="16"/>
+      <node ref="J_EXT202" pin="6"/>
+    </net>
+    <net code="47" name="GPIO_EXT3">
+      <node ref="U301" pin="15"/>
+      <node ref="J_EXT202" pin="5"/>
+    </net>
+    <net code="48" name="GPIO_EXT2">
+      <node ref="U301" pin="14"/>
+      <node ref="J_EXT202" pin="4"/>
+    </net>
+    <net code="49" name="GPIO_EXT1">
+      <node ref="J_EXT202" pin="3"/>
+      <node ref="U301" pin="13"/>
+    </net>
+    <net code="50" name="/IO shield/TOF2_GPIO">
       <node ref="J_TOF202" pin="7"/>
     </net>
-    <net code="43" name="/IO shield/TOF2_XSHUT">
-      <node ref="J_TOF202" pin="6"/>
-    </net>
-    <net code="44" name="/IO shield/TOF1_XSHUT">
-      <node ref="J_TOF201" pin="6"/>
-    </net>
-    <net code="45" name="/IO shield/ALIM_TOF">
-      <node ref="J_TOF201" pin="2"/>
-      <node ref="J_TOF202" pin="2"/>
-    </net>
-    <net code="46" name="/IO shield/TOF1_V_out">
-      <node ref="J_TOF201" pin="1"/>
-    </net>
-    <net code="47" name="/IO shield/TOF2_V_out">
+    <net code="51" name="/IO shield/TOF2_V_out">
       <node ref="J_TOF202" pin="1"/>
     </net>
-    <net code="48" name="/IO shield/TOF1_GPIO">
+    <net code="52" name="/IO shield/TOF1_GPIO">
       <node ref="J_TOF201" pin="7"/>
     </net>
-    <net code="49" name="/IO shield/ESP-GPIO2">
-      <node ref="J_selESP_1" pin="2"/>
+    <net code="53" name="Arduino-SDA">
+      <node ref="J_TOF201" pin="4"/>
+      <node ref="J_arduino_8-13_201" pin="9"/>
+      <node ref="J_TOF202" pin="4"/>
+      <node ref="J_EXT202" pin="7"/>
+    </net>
+    <net code="54" name="/IO shield/TOF1_V_out">
+      <node ref="J_TOF201" pin="1"/>
+    </net>
+    <net code="55" name="CTRL_Servo">
+      <node ref="J_SERV201" pin="3"/>
+      <node ref="U301" pin="10"/>
+    </net>
+    <net code="56" name="Shield-ALIM+">
+      <node ref="U401" pin="1"/>
+      <node ref="J_arduino_power_203" pin="1"/>
+      <node ref="C403" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="J_EXT202" pin="1"/>
+      <node ref="U402" pin="1"/>
+    </net>
+    <net code="57" name="Arduino-SCL">
+      <node ref="J_EXT202" pin="8"/>
+      <node ref="J_TOF202" pin="5"/>
+      <node ref="J_arduino_8-13_201" pin="10"/>
+      <node ref="J_TOF201" pin="5"/>
+    </net>
+    <net code="58" name="ESP-RX">
+      <node ref="J_ESP201" pin="1"/>
+      <node ref="U301" pin="12"/>
+    </net>
+    <net code="59" name="/IO shield/TOF2_XSHUT">
+      <node ref="J_TOF202" pin="6"/>
+    </net>
+    <net code="60" name="/IO shield/ESP-GPIO2">
       <node ref="J_ESP201" pin="5"/>
+      <node ref="J_selESP_1" pin="2"/>
     </net>
-    <net code="50" name="P_BUT1">
-      <node ref="SW501" pin="2"/>
-      <node ref="R501" pin="2"/>
+    <net code="61" name="/IO shield/ESP-GPIO0">
+      <node ref="J_selESP_1" pin="1"/>
+      <node ref="J_ESP201" pin="3"/>
     </net>
-    <net code="55" name="GND">
-      <node ref="C401" pin="2"/>
-      <node ref="U401" pin="GND"/>
-      <node ref="J_selESPGND_1" pin="1"/>
-      <node ref="J_selESPGND_1" pin="3"/>
-      <node ref="C402" pin="2"/>
-      <node ref="J_selESPGND_1" pin="4"/>
-      <node ref="LED501" pin="1"/>
-      <node ref="LED502" pin="1"/>
-      <node ref="LED503" pin="1"/>
-      <node ref="SW503" pin="1"/>
-      <node ref="C403" pin="2"/>
-      <node ref="SW501" pin="1"/>
-      <node ref="SW502" pin="1"/>
-      <node ref="U402" pin="2"/>
-      <node ref="C404" pin="2"/>
-      <node ref="J_EXT202" pin="2"/>
-      <node ref="J_EXT201" pin="4"/>
-      <node ref="J_EXT201" pin="3"/>
-      <node ref="J_EXT201" pin="2"/>
-      <node ref="J_EXT201" pin="1"/>
-      <node ref="J_TOF201" pin="3"/>
-      <node ref="J_arduino_power_203" pin="3"/>
-      <node ref="J_selESPGND_1" pin="2"/>
-      <node ref="J_SERV201" pin="1"/>
-      <node ref="J_arduino_power_203" pin="2"/>
-      <node ref="J_ESP201" pin="7"/>
-      <node ref="resetButton_1" pin="2"/>
-      <node ref="J_arduino_8-13_201" pin="7"/>
-      <node ref="J_TOF202" pin="3"/>
+    <net code="62" name="/IO shield/ESP-CHPD">
+      <node ref="J_selESP_1" pin="4"/>
+      <node ref="J_ESP201" pin="6"/>
     </net>
-    <net code="56" name="P_RESET">
-      <node ref="SW503" pin="2"/>
-      <node ref="R503" pin="2"/>
+    <net code="63" name="ESP-TX">
+      <node ref="U301" pin="11"/>
+      <node ref="J_ESP201" pin="8"/>
     </net>
-    <net code="57" name="P_BUT2">
+    <net code="64" name="P_BUT2">
       <node ref="SW502" pin="2"/>
+      <node ref="U301" pin="9"/>
       <node ref="R502" pin="2"/>
     </net>
-    <net code="58" name="ALIM_UC">
-      <node ref="R501" pin="1"/>
-      <node ref="R502" pin="1"/>
-      <node ref="R503" pin="1"/>
+    <net code="65" name="P_BUT1">
+      <node ref="R501" pin="2"/>
+      <node ref="U301" pin="8"/>
+      <node ref="SW501" pin="2"/>
     </net>
-    <net code="59" name="P_LED3">
+    <net code="66" name="P_LED3">
+      <node ref="U301" pin="7"/>
       <node ref="R506" pin="1"/>
     </net>
-    <net code="60" name="P_LED2">
+    <net code="67" name="P_LED2">
+      <node ref="U301" pin="6"/>
       <node ref="R505" pin="1"/>
     </net>
-    <net code="61" name="P_LED1">
+    <net code="68" name="P_LED1">
       <node ref="R504" pin="1"/>
+      <node ref="U301" pin="5"/>
     </net>
-    <net code="62" name="5V_SERVO">
-      <node ref="C402" pin="1"/>
-      <node ref="J_SERV201" pin="2"/>
-      <node ref="U401" pin="VO"/>
-    </net>
-    <net code="64" name="Net-(LED503-Pad2)">
+    <net code="69" name="Net-(LED503-Pad2)">
       <node ref="LED503" pin="2"/>
       <node ref="R506" pin="2"/>
     </net>
-    <net code="65" name="Net-(LED502-Pad2)">
+    <net code="70" name="Net-(LED502-Pad2)">
       <node ref="LED502" pin="2"/>
       <node ref="R505" pin="2"/>
     </net>
-    <net code="66" name="Net-(LED501-Pad2)">
+    <net code="71" name="Net-(LED501-Pad2)">
       <node ref="LED501" pin="2"/>
       <node ref="R504" pin="2"/>
     </net>
